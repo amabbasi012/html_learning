@@ -197,6 +197,23 @@ if (rem === 0 ){
 } 
 
 
+//Else-if Statments
+
+let age2 = 19
+
+if (age2 <18) {
+    console.log("junior")
+} else if(age2>60){
+    console.log("senior")
+} else {
+    console.log("middle")
+}
+
+
+
+
+
+
 
 
 
