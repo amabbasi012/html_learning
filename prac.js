@@ -209,11 +209,51 @@ if (age2 <18) {
     console.log("middle")
 }
 
+// ternary operator   
+
+let age3 = 35;
+
+let result = age>=18 ? "adult" : "not adult"; 
+
+console.log (result);
 
 
 
+// Alert
+
+//Prompt
+
+input1 = prompt("Enter Your Name")
+
+// One Time Alert
+
+alert ("Hello " + input1);
+
+// Practice of Promt and Alert
+
+//          -1-
+
+let prmt1 = prompt("Enter The Number")
+
+if (prmt1 % 5 === 0){
+    alert(prmt1 +" Is A Multiple Of 5")
+} else{
+    alert(prmt1 +" Is Not A Multiple Of 5")
+}
+
+//          -2-
 
 
+let marks = prompt("Enter Your Marks")
 
-
-
+if (marks >=80 && marks <= 100){
+    alert("You Got A Grade")
+}else if (marks >=70 && marks <= 89){
+    alert("You Got B Grade")
+}else if (marks >=60 && marks <= 69){
+    alert("You Got C Grade")
+}else if (marks >=50 && marks <= 59){
+    alert("You Got D Grade")
+}else if (marks >=0 && marks < 49){
+    alert("You Got F Grade")
+}
