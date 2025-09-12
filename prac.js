@@ -257,3 +257,8 @@ if (marks >=80 && marks <= 100){
 }else if (marks >=0 && marks < 49){
     alert("You Got F Grade")
 }
+
+
+
+
+console.log ("abid")
