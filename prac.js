@@ -321,9 +321,29 @@ for (let key in student){
     console.log("key =", key, "value =", student[key]);
 }
 
+//practice #1
 
+for(let no = 1; no <= 100; no++){
+    if ( no % 2 ===0){
+        console.log(no)
+    }else if (no % 2 != 0){
+    
+    }
+}
 
+//practice #2
 
+let rndm_no = 9
 
-
+for(let i = 1; i <= 10; i++){
+   let user_inp = parseInt(prompt("Enter The Number 1 - 100: "));
+        if (user_inp === rndm_no){
+            alert("You Guessed Correct No !");
+            break;
+        } else  {
+                    alert("Try Again");
+                }
+            
+        }
+    
 
