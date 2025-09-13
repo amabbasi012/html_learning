@@ -244,9 +244,9 @@ if (prmt1 % 5 === 0){
 //          -2-
 
 
-let marks = prompt("Enter Your Marks")
+let marks = prompt("Enter Your Percentage : ")
 
-if (marks >=80 && marks <= 100){
+if (marks >=90 && marks <= 100){
     alert("You Got A Grade")
 }else if (marks >=70 && marks <= 89){
     alert("You Got B Grade")
@@ -259,6 +259,71 @@ if (marks >=80 && marks <= 100){
 }
 
 
+// Loops 
+
+// For Loop
+
+for(let i = 1; i <= 10; i++){
+    console.log("i =", i);
+}
+
+// Calculate the Sum Of 1 to 5
+
+let sum = 0;
+for(let i=1; i<= 5; i++){
+    sum = sum + i;
+}
+console.log("sum = ", sum);
+
+//infinite loop 
 
 
-console.log ("abid")
+// for(let count = 1; count <= 0; count++){
+//     console.log("count =", count);
+// }
+
+// While loop
+
+let i = 1;
+while(i <= 3){
+    console.log ("i =", i);
+    i++;
+}
+
+// Do-While Loop
+
+let  l = 1;
+do {
+    console.log("Abid Ali");
+    l++;
+} while (l<=10);
+
+// for-of loop
+
+let str = ("Javascript")
+
+let size = 0;
+ for(let i of str){
+    console.log("i = ", i);
+    size ++; 
+}
+console.log("String Size =", size);
+
+ // for-in loop
+
+let student={
+    Name : "Abid Ali",
+    CGPA  : 0,
+    isPass: false
+};
+
+for (let key in student){
+    console.log("key =", key, "value =", student[key]);
+}
+
+
+
+
+
+
+
