@@ -404,6 +404,7 @@ console.log (str3.toUpperCase());
 let str4 = ("lower case method");
 console.log (str4.toLowerCase());
 
+//trim
 
 let str5 = ("    abid, ali ,abbasi      ");
 console.log(str5)
