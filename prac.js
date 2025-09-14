@@ -333,10 +333,10 @@ for(let no = 1; no <= 100; no++){
 
 //practice #2
 
-let rndm_no = 9
+let rndm_no = 9;
 
 for(let i = 1; i <= 10; i++){
-   let user_inp = parseInt(prompt("Enter The Number 1 - 100: "));
+   let user_inp = parseInt(prompt("Enter The Number 1 - 100 (9): "));
         if (user_inp === rndm_no){
             alert("You Guessed Correct No !");
             break;
@@ -346,4 +346,71 @@ for(let i = 1; i <= 10; i++){
             
         }
     
+
+// strings
+
+let str2 = ("Abid Ali");
+
+//length
+
+str2.length;
+
+// string indices
+
+console.log(str2[3]);
+
+// template literals
+
+let special_str =`this is a template literal ${1 + 2 + 3}`;
+console.log(special_str);
+console.log(typeof special_str);
+
+//String interpolation 
+
+let obj ={
+    item : "pen",
+    price : 20,
+
+}
+
+let output = `The Cost Of ${obj.item} Is ${obj.price} Rupees`
+console.log ((output))
+
+// escape Characters
+
+// \n
+
+console.log ("I Am A Student , I am Learning Javacsript")
+
+console.log ("I Am A Student \nI am Learning Javacsript")
+
+// \t
+
+console.log ("I Am A Student , I am Learning Javacsript")
+
+console.log ("I Am A Student \tI am Learning Javacsript")
+
+
+
+//string Methods
+
+// toUpperCase
+
+let str3 = ("upper case method");
+console.log (str3.toUpperCase());
+
+// toUpperCase
+
+let str4 = ("lower case method");
+console.log (str4.toLowerCase());
+
+
+let str5 = ("    abid, ali ,abbasi      ");
+console.log(str5)
+let newStr = (str5.trim())
+console.log(newStr)
+
+
+
+
 
